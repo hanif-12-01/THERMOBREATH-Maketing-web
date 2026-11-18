@@ -1,0 +1,24 @@
+{
+  "experiment": "TASK-ML-003",
+  "variant": "Baseline 9 kelas",
+  "evaluationDate": "2026-11-15",
+  "dataset": "Scent of Health (S-OH)",
+  "datasetUrl": "https://huggingface.co/datasets/ivanpodd/S-OH",
+  "samples": 1234,
+  "classes": 9,
+  "folds": 5,
+  "protocol": "StratifiedKFold, shuffled; pooled out-of-fold predictions",
+  "metric": "Accuracy",
+  "models": [
+    { "name": "Logistic Regression (L2)", "accuracy": 0.3711507293354943 },
+    { "name": "Random Forest (100 pohon)", "accuracy": 0.4376012965964344 },
+    { "name": "XGBoost", "accuracy": 0.4059967585089141 }
+  ],
+  "scope": "Evaluasi metodologis pada sembilan kelas S-OH. S-OH tidak memuat label pneumonia.",
+  "source": {
+    "artifact": "AI Research/models/benchmark/evaluation_results.json",
+    "notebook": "AI Research/notebooks/03_baseline_machine_learning.ipynb",
+    "revision": "5db491718b5cee1d8668fe310b79fe812d1ca904",
+    "sha256": "f3273aaa3a52b723ae70d70e61b9c169c0ecdd3c7d2687ee4d00e00ec05448a1"
+  }
+}

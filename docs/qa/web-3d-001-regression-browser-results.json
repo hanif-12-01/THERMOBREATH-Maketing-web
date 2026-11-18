@@ -1,0 +1,72 @@
+[
+  {
+    "width": 360,
+    "contentWidth": 360,
+    "lcp": 0,
+    "cls": 0,
+    "height": 800,
+    "keyboardReducedMotion": "PASS",
+    "benchmark": "PASS",
+    "result": "PASS"
+  },
+  {
+    "width": 390,
+    "contentWidth": 390,
+    "lcp": 188,
+    "cls": 0,
+    "height": 844,
+    "keyboardReducedMotion": "PASS",
+    "benchmark": "PASS",
+    "result": "PASS"
+  },
+  {
+    "width": 768,
+    "contentWidth": 768,
+    "lcp": 180,
+    "cls": 0,
+    "height": 940,
+    "keyboardReducedMotion": "PASS",
+    "benchmark": "PASS",
+    "result": "PASS"
+  },
+  {
+    "width": 1024,
+    "contentWidth": 1024,
+    "lcp": 240,
+    "cls": 0,
+    "height": 900,
+    "keyboardReducedMotion": "PASS",
+    "benchmark": "PASS",
+    "result": "PASS"
+  },
+  {
+    "width": 1440,
+    "contentWidth": 1440,
+    "lcp": 208,
+    "cls": 0,
+    "height": 960,
+    "keyboardReducedMotion": "PASS",
+    "benchmark": "PASS",
+    "result": "PASS"
+  },
+  {
+    "pointerBendAndReset": "PASS",
+    "clickPulseAndReplay": "PASS",
+    "scrollMorph": "PASS",
+    "offscreenPathWrites": 0
+  },
+  {
+    "touchTapAndReplay": "PASS",
+    "emulatedMobileCpuThrottle": "4×",
+    "frameIntervalP95Ms": 50.2
+  },
+  {
+    "noWebGL": "PASS"
+  },
+  {
+    "noJavaScript": "PASS"
+  },
+  {
+    "consoleAndHttpErrors": []
+  }
+]

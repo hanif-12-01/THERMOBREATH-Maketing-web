@@ -1,0 +1,29 @@
+{
+  "desktop": {
+    "loadMs": 984,
+    "orbitZoomPresets": "PASS",
+    "assemblyAndScrub": "PASS",
+    "selectionHighlightFocus": "PASS",
+    "hotspotAndMeshSelection": "PASS",
+    "rapidActionAndReassembly": "PASS",
+    "closeViewer": "PASS",
+    "lazyGlb": "PASS"
+  },
+  "responsiveReducedMotion": [
+    360,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "mobile": {
+    "touchControls": "PASS",
+    "cpuThrottling": "4x"
+  },
+  "noWebGL": "PASS",
+  "assembledOnlyGlb": "PASS",
+  "missingGlbConfiguration": "PASS",
+  "http404Fallback": "PASS",
+  "noJavaScript": "PASS",
+  "consoleErrors": []
+}

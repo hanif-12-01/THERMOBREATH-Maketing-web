@@ -1,0 +1,34 @@
+[
+  {
+    "device": "mobile",
+    "version": "13.5.0",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "fcp": "1.1 s",
+    "lcp": "2.1 s",
+    "cls": "0",
+    "tbt": "0 ms",
+    "warnings": [],
+    "failingAccessibility": []
+  },
+  {
+    "device": "desktop",
+    "version": "13.5.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "fcp": "0.3 s",
+    "lcp": "0.4 s",
+    "cls": "0",
+    "tbt": "0 ms",
+    "warnings": [],
+    "failingAccessibility": []
+  }
+]
